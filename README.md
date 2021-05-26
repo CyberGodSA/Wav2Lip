@@ -1,3 +1,16 @@
+# This is a fork of Wav2Lip with improvement.
+Original code works bad in case if face is not strictly vertical.
+
+#### Improvements:
+- add affine transformation of face before running Wav2Lip based on Face Landmarks Detection
+
+#### Additional packages:
+- face_alignment (https://github.com/1adrianb/face-alignment)
+
+#### TODO list:
+-
+
+
 # **Wav2Lip**: *Accurately Lip-syncing Videos In The Wild*
 
 This code is part of the paper: _A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild_ published at ACM Multimedia 2020. 
