@@ -5,10 +5,11 @@ Original code works bad in case if face is not strictly vertical.
 - add affine transformation of face before running Wav2Lip based on Face Landmarks Detection
 
 #### Additional packages:
-- face_alignment (https://github.com/1adrianb/face-alignment)
+- `face_alignment` (https://github.com/1adrianb/face-alignment)
+- `scikit-image`
 
 #### TODO list:
--
+- write instruction for running `inference_face_rotation.py`
 
 
 # **Wav2Lip**: *Accurately Lip-syncing Videos In The Wild*
